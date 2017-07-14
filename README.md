@@ -12,7 +12,11 @@
  * jupyter notebook
 ## 网络配置
 采用了较为简单的卷积神经网络模型，包含4个卷积层，2个池化层和2个全连接层，读者可以根据layers/layers.py中定义的各种类型的层进行模型的搭建。为了加快模型收敛，在卷积层、全连接层中均使用了Batch Normalization。网络模型如下图所示：
+
+
+
 ![网络模型](https://i.loli.net/2017/07/14/596869d4c7d0a.png)
+
 ## 实验结果
 ![train_loss.png](https://i.loli.net/2017/07/14/59686a5993c04.png)
 ![train_val_accuracy.png](https://i.loli.net/2017/07/14/59686a83ab80a.png)
